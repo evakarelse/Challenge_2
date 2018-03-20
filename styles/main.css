@@ -1,0 +1,31 @@
+#klok{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+#wolk{
+	height: 20vmin;
+	width: auto;
+	position: fixed;
+}
+#ster{
+	height: 20vmin;
+	width: auto;
+	position: fixed;
+	left: -10vw;
+}
+@media all and (min-width: 375px) {
+    #klok{
+        font-size: 60px;
+    }
+}
+@media all and (min-width: 664px){
+	#klok{
+        font-size: 130px;
+    }
+}
+@media all and (min-width: 1025px){
+	#klok{
+        font-size: 200px;
+    }
+}
