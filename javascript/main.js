@@ -44,8 +44,12 @@ function wolkjeBewegen(){
 }
 function sterVerdwijnen(){
     TweenMax.to("#ster", 10, {
-        ease: Power1.easeOut,
-        x:600
+        x:200,
+        y:200,
+        scale:3,
+        rotation:360,
+        marginLeft:'100vw',
+        repeat:-1
     })
 }
 wolkjeBewegen();
