@@ -28,3 +28,11 @@
         font-size: 200px;
     }
 }
+
+main{
+	display: flex;
+	flex-direction: column;
+}
+.item{
+	order: initial;
+}
