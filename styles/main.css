@@ -17,9 +17,6 @@
     #klok{
         font-size: 80px;
     }
-    #wolk{
-    	height: 40vmin;
-    }
 }
 @media all and (min-width: 664px){
 	#klok{
@@ -29,6 +26,9 @@
 @media all and (min-width: 1025px){
 	#klok{
         font-size: 200px;
+    }
+        #wolk{
+    	height: 35vmin;
     }
 }
 
